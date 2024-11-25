@@ -1,8 +1,12 @@
+/** @copyright 20024 Ifyart
+ *  license: Apache License 2.0
+ * */ 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* ---------  */
+
 *  Base 
 /* -------- */
 
@@ -11,6 +15,6 @@ html {
 }
 
 body {
-    @apply bg-zing-900;
-    
+    @apply bg-zing-900 text-zinc-50;
+
 }

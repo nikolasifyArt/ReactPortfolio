@@ -1,3 +1,7 @@
+/** @copyright 20024 ifyart
+ *  license: Apache License 2.0
+ * */ 
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
