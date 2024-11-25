@@ -15,6 +15,5 @@ html {
 }
 
 body {
-    @apply bg-zing-900 text-zinc-50;
-
+    @apply bg-zinc-900 text-zinc-50;
 }
