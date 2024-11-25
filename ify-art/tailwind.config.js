@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      //add the sans : Inter Font family to tailwindcss
+      fontFamily: {
+        'sans': ['Inter', 'sans-serif'],
+    },
+  },
   },
   plugins: [],
 }
