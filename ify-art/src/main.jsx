@@ -11,7 +11,8 @@ import { createRoot } from 'react-dom/client'
  * Components
  * 
  */
-
+import { App } from './App.jsx'
+import tailwindScrollbar from 'tailwind-scrollbar'
 
 
 /**
@@ -19,10 +20,10 @@ import { createRoot } from 'react-dom/client'
  */
 import './index.css';
 
-import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+  <tailwindScrollbar
     <App />
   </StrictMode>,
 )
